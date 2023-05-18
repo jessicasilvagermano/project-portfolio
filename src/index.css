@@ -1,0 +1,59 @@
+#card {
+    background-color: #f9e7f9;
+
+}
+
+h1,
+h2,
+#linksNavBar {
+    color: #922292;
+}
+
+#subTitle {
+    color: rgb(36, 33, 33);
+}
+
+#btnContato {
+    background-color: #922292;
+    border: #f9e7f9;
+}
+
+.gifProjetos:hover{ 
+    box-shadow: 5px 6px 6px 2px #540b54;
+    transform: scale(1.2);
+   
+}
+
+#gifProjetos{ 
+    
+    background-color:#f5d2f5;
+    border-color: #f9e7f9;
+   
+}
+
+#blocoCard:hover {
+    box-shadow: 5px 6px 6px 2px #540b54;
+    transform: scale(1.1);
+}
+
+
+@keyframes btn-pisca {
+
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+#btn-pisca {
+    background-color:#ece111;
+    color:#540b54;
+    padding: 0.3em 0.4em;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px; 
+    -webkit-animation: btn-pisca .12s linear infinite;
+    -moz-animation: btn-pisca .12s linear infinite;
+    -ms-animation: btn-pisca .12s linear infinite;
+    -o-animation: btn-pisca .12s linear infinite;
+    animation: btn-pisca .12s linear infinite;
+    
+ }
